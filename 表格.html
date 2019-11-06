@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        <!--2x3 table--> <!-- 一個2列*3列的表格 -->
+        <table border="1">  <!-- 表格邊線的設定 -->
+            <tr><td>1</td><td>2</td><td>3</td></tr>
+            <tr><td>4</td><td>5</td><td>6</td></tr>
+        </table><br>
+        <table border="1">  <!-- 表格邊線的設定 -->
+            <tr><td>1</td><td colspan="2">2,3</td></tr>   <!-- 列是tr 資料欄是td --><!--colspan是行的擴張 -->
+            <tr><td>4</td><td>5</td><td>6</td></tr> <!-- 把數字夾在td裡，就會顯示甚麼數字  -->
+        </table><br>
+        <table border="1">  <!-- 表格邊線的設定 -->
+            <tr><td rowspan="2">1,4</td><td>2</td><td>3</td></tr><!--rowspan是列的擴張 -->
+            <tr>                        <td>5</td><td>6</td></tr>
+        </table><br>
+        <table border="1"><!-- 表格邊線的設定 -->
+            <tr><td>1</td><td>2</td><td>3</td></tr>
+            <tr><td>4</td><td colspan="2" rowspan="2">5,6,8,9</td></tr><!-- 根據上方的指示做成的綜合練習 -->
+            <tr><td>7</td></tr>
+       </table><br>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        <form method="get" action="registration.php">
+        帳號：<input type="text" name="id"><br> <!-- 輸入資料為文字型態 -->
+        性別：<input type="radio" name="sex" value="M">男 <!-- radio為單選 -->
+             <input type="radio" name="sex" value="F" checked>女 <br><!-- radio為單選 -->
+        興趣：<input type="checkbox" name="interest" value="tv">玩遊戲 <!-- checkbox為複選 -->
+           <input type="checkbox" name="interest" value="movie" checked>聽音樂 <!-- checkbox為複選 -->
+           <input type="checkbox" name="interest" value="bike">旅遊 <br> <!-- checkbox為複選 -->
+        居住地：<select name="county"><!-- select為下拉式選單  -->
+            <option value="taoyuan">台中</option>
+            <option value="hsinchu" selected>高雄</option>
+            <option value="miaoli">嘉義</option>       
+        </select> <br>
+        自傳：<br>
+        <textarea name="autobiography" rows="10" cols="50"></textarea><br><!-- 可輸入數字、文字 -->
+        <input type="submit" value="註冊"> 
+        <input type="reset" value="要清空請按清除">
+        
+        </form>
+    </body>
+</html>
